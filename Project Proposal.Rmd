@@ -1,0 +1,17 @@
+---
+title: "Project Proposal"
+author: "Nichole A. Beyer"
+date: "1/20/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+data = read.csv('https://raw.githubusercontent.com/nicabey/Applied-Statistics-/main/goodreads-data.csv')
+```
+
+## 
+
+```{r}
+head(data)
+```
