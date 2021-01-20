@@ -4,14 +4,14 @@ author: "Nichole A. Beyer"
 date: "1/20/2021"
 output: html_document
 ---
-
+I have found the data for this project at https://www.kaggle.com/bahramjannesarr/goodreads-book-datasets-10m I then downloaded the dataset and saved it as a .CSV file and uploaded it into my Github repository (Applied-Statistics). With this data I hope to show any relationship between user ratings and genre or other things if the idea comes to me, but for now its just the former. 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 data = read.csv('https://raw.githubusercontent.com/nicabey/Applied-Statistics-/main/goodreads-data.csv')
 ```
 
 ## 
-
+Here is a small portion of the data and the summary statistics 
 ```{r}
 head(data)
 summary(data)
